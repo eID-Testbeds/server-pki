@@ -9,7 +9,7 @@ public enum CVAuthorizationType
 {
 
 	AuthorizationA(CVTermIndicator.A), AuthorizationB(CVTermIndicator.B), AuthorizationC(CVTermIndicator.C), AuthorizationD(CVTermIndicator.D), AuthorizationA2(CVTermIndicator.A2), AuthorizationEDSA(
-			CVTermIndicator.EDSA), AuthorizationEECDSA(CVTermIndicator.EECDSA), AuthorizationERSA(CVTermIndicator.ERSA);
+			CVTermIndicator.EDSA), AuthorizationEECDSA(CVTermIndicator.EECDSA), AuthorizationERSA(CVTermIndicator.ERSA), AuthorizationF(CVTermIndicator.F);
 
 	private CVAuthorization authorization;
 	private CVTermIndicator indicator;
@@ -35,7 +35,7 @@ public enum CVAuthorizationType
 				authorization.setAuth(CVAuthorizationAT.auth_Read_DG2, false);
 				authorization.setAuth(CVAuthorizationAT.auth_Read_DG3, false);
 				authorization.setAuth(CVAuthorizationAT.auth_Read_DG4, false);
-				authorization.setAuth(CVAuthorizationAT.auth_Read_DG5, false);
+				authorization.setAuth(CVAuthorizationAT.auth_Read_DG5, true);
 				authorization.setAuth(CVAuthorizationAT.auth_Read_DG6, false);
 				authorization.setAuth(CVAuthorizationAT.auth_Read_DG7, false);
 				authorization.setAuth(CVAuthorizationAT.auth_Read_DG8, false);

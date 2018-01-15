@@ -10,7 +10,7 @@ import com.secunet.testbedutils.cvc.cvcertificate.CVCertificateHolderReference;
 public enum CVTermIndicator
 {
 	// note: this has to be a duplicate of the eService enum in the eID-Server testbed due to restrictions of the project structure
-	A, B, C, D, EDSA, ERSA, EECDSA, A2,
+	A, B, C, D, EDSA, ERSA, EECDSA, A2, F,
 
 	Unknown;
 

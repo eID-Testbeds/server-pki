@@ -7,20 +7,24 @@
 	<packaging>war</packaging>
 	<name>TR-03129 PKI</name>
 	<description>A mock PKI service which provides TA, PA and RI in compliance with TR-03129</description>
+	
+	<properties>
+		<testbedutils.version>1.1</testbedutils.version>
+	</properties>
 
 	<dependencies>
 		<!-- CVC support -->
 		<dependency>
 			<groupId>com.secunet</groupId>
 			<artifactId>testbedutils-CVC</artifactId>
-			<version>1.0</version>
+			<version>${testbedutils.version}</version>
 		</dependency>
 
 		<!-- Utilities -->
 		<dependency>
 			<groupId>com.secunet</groupId>
 			<artifactId>testbedutils-CommonUtilities</artifactId>
-			<version>1.0</version>
+			<version>${testbedutils.version}</version>
 		</dependency>
 
 		<!-- Web services support -->

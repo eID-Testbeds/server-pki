@@ -14,7 +14,8 @@ public enum CertificateDescription
 			"desc/CERT_ECARD_CV_TERM_1_B.bin"), CERT_DESC_TERM_1_C(CVCAIndicator.CA_1, CVTermIndicator.C, "desc/CERT_ECARD_CV_TERM_1_C.bin"), CERT_DESC_TERM_1_D(CVCAIndicator.CA_1, CVTermIndicator.D,
 					"desc/CERT_ECARD_CV_TERM_1_D.bin"), CERT_DESC_TERM_2_A(CVCAIndicator.CA_1, CVTermIndicator.A2, "desc/CERT_ECARD_CV_TERM_2_A.bin"), CERT_DESC_TERM_1_EDSA(CVCAIndicator.CA_1,
 							CVTermIndicator.EDSA, "desc/CERT_ECARD_CV_TERM_1_E_DSA.bin"), CERT_DESC_TERM_1_EECDSA(CVCAIndicator.CA_1, CVTermIndicator.EECDSA,
-									"desc/CERT_ECARD_CV_TERM_1_E_ECDSA.bin"), CERT_DESC_TERM_1_ERSA(CVCAIndicator.CA_1, CVTermIndicator.ERSA, "desc/CERT_ECARD_CV_TERM_1_E_RSA.bin");
+									"desc/CERT_ECARD_CV_TERM_1_E_ECDSA.bin"), CERT_DESC_TERM_1_ERSA(CVCAIndicator.CA_1, CVTermIndicator.ERSA,
+											"desc/CERT_ECARD_CV_TERM_1_E_RSA.bin"), CERT_DESC_TERM_1_F(CVCAIndicator.CA_1, CVTermIndicator.F, "desc/CERT_ECARD_CV_TERM_1_F.bin");
 
 	private String path;
 	private CVCAIndicator caIndicator;
