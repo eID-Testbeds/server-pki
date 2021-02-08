@@ -9,7 +9,7 @@
 	<description>A mock PKI service which provides TA, PA and RI in compliance with TR-03129</description>
 	
 	<properties>
-		<testbedutils.version>1.1</testbedutils.version>
+		<testbedutils.version>1.2</testbedutils.version>
 	</properties>
 
 	<dependencies>
